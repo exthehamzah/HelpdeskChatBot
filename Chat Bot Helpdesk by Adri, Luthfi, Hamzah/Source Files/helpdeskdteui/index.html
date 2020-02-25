@@ -1,0 +1,114 @@
+<!-- 
+This code is created to be a main page homepage
+Author : Muhammad Hamzah, Adri A. An Nabaa, & Luthfi R. Hardy
+ -->
+
+<html>
+	
+	<head>
+		<title>Engati Web Bot Demo 1.0</title>
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style/style.css">
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/vendor/popper.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<style type="text/css">
+			#a { width: 200px; }
+		</style>
+
+	</head>
+	<body>
+		<div class="container-fluid h-100 mx-md-n5" id="yellow">
+			<!-- image logo below that refer to the homepage -->
+			<div class="specialmp">
+				<a href="index.html">
+					<img src="images/Logo.png" >
+				</a>
+			</div>
+			<!-- welcoming text below -->
+			<h1 align="center">
+				<p>WELCOME TO THE HOME PAGE OF</p>
+				<p>	CHAT BOT FOR HELPDESK SEKRE DTE</p>
+			</h1>
+			<!-- container below contains two button: 'go to chat bot' button
+				and additional feature button -->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col">
+						<a href="chatpage.html">
+							<!-- button to go to the chat page -->
+							<button type="button" class="btn btn-primary btn-lg btn-block">
+								Go to The Chat Bot
+							</button>
+						</a>
+					</div>
+					<div class="col">
+					</div>
+					<!-- button to collapsible feature of amount of SKS checker to internship -->
+					<div class="col">
+						<button class="btn btn-primary btn-lg btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+							Apakah Kamu Boleh Ikut KP?
+						</button>
+						<div class="collapse" id="collapseExample">
+  							<div class="card card-body">
+    							Masukkan jumlah SKS kamu (jumlah SKS lulus)
+    							<p></p>
+								<!-- input the SKS amount and click to check -->
+								<div class="row" id="inputs">
+									<input type="number" min="0" max="200" id="a" placeholder="Cek SKS Boleh KP">
+									<button id="submit">Click untuk Lihat</button>
+								</div>
+								<div class="row">
+									<p><script type="text/javascript">
+										// When the user clicks the button, run the compare function
+										document.getElementById('submit').onclick = compare;
+										function compare() {
+											// Get the value stored in #a
+											var a = document.getElementById('a').value;
+											a = parseFloat(a);
+											// Get the value stored in #b
+											var b = 90;
+											var str = new String("Demo Text");
+											/*var b = document.getElementById('b').value;
+											b = parseFloat(b);*/
+											// Set up a variable to store the comparison operator
+											var comparison;
+											// TODO: Set `comparison` string based on relationship between a and b
+											if(a > 144){
+												comparison = 'Invalid';
+												document.getElementById("comparison").style.color = 'red';
+											}
+											if(a > b) {
+												comparison = 'Selamat, kamu bisa ikut KP';
+												document.getElementById("comparison").style.color = 'green';
+												/*comparison.style.color = "green";*/
+											} else if(a < b) {
+												comparison = 'SKS-mu kurang, coba lagi saat sudah 90 SKS';
+												document.getElementById("comparison").style.color = 'red';
+												/*comparison.style.color = "red";*/
+											} else {
+												comparison = 'Selamat, kamu bisa ikut KP';
+												document.getElementById("comparison").style.color = 'green';
+												/*comparison.style.color = "green";*/
+											}
+											// Print `comparison` string on the page
+											document.getElementById('comparison').innerHTML = comparison;
+										}
+									</script></p>
+									<b><p align="center" id="comparison"></p></b>
+								</div>
+  							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+			<!-- bottom text contain the author and supporting services for this web -->
+			<div style="position: absolute; bottom: 5px; ">
+				<span class="align-bottom">Made by Hamzah, Adri, and Luthfi. Powered by Engati & 000webhost
+				</span>
+			</div>
+		</div>
+	</body>
+</html>

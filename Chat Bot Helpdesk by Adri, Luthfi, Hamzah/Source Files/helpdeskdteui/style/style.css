@@ -1,0 +1,25 @@
+/*
+This is the CSS style code for styling
+the main webpage
+Author: Luthfi R. Hardy
+*/
+
+/*
+Font which is used in this style is "Trebuchet MS"
+*/
+* {
+   font-family: Trebuchet MS;
+}
+
+html,body {
+  height: 100%;
+}
+
+#yellow {
+  height: 100%;
+  background: #ffc107;
+}
+
+.specialmp {
+	padding:15px 10px;
+}
