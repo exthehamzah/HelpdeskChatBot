@@ -5,7 +5,7 @@ For example: academic leave, internship, bachelor thesis
 
 This web-based chatbot can also be deployed into the internet domain (for example: example.com)
 
-## Requirement
+## Requirements
 <ul>
   <li>XAMPP Apache Server</li>
   <li>Internet browser and connection</li>
