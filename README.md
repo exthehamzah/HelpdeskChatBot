@@ -13,9 +13,13 @@ This web-based chatbot can also be deployed into the internet website (for examp
 
 ## How to Use
 <ol>
-  
   Local
   <li>Move the 'helpdeskdteui' folder (HelpdeskChatbot/Chat Bot ..., Hamzah/Source Files/helpdeskdteui) into the XAMPP's htdocs folder</li>
   <li>Turn on XAMPP Apache Server</li>
-  <li>Open the local website using internet browser</li>
+  <li>Open the local website using internet browser (address by default: localhost/helpdeskdteui)</li>
+</ol>
+<ol>
+  Remote Domain
+  <li>Move the 'helpdeskdteui' folder (HelpdeskChatbot/Chat Bot ..., Hamzah/Source Files/helpdeskdteui) into the website's domain folder manager (depens on domain's settings)</li>
+  <li>Open the internet browser and access the address of the website</li>
 </ol>
