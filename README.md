@@ -3,7 +3,7 @@ A chatbot which is implemented in a website in order to answer some academic que
 
 For example: academic leave, internship, bachelor thesis
 
-This web-based chatbot can also be deployed into the internet domain (for example: example.com)
+This web-based chatbot can also be deployed into the internet website (for example: example.com)
 
 ## Requirements
 <ul>
@@ -12,8 +12,10 @@ This web-based chatbot can also be deployed into the internet domain (for exampl
 </ul>
 
 ## How to Use
-<ol>Local
+<ol>
+  
+  Local
   <li>Move the 'helpdeskdteui' folder (HelpdeskChatbot/Chat Bot ..., Hamzah/Source Files/helpdeskdteui) into the XAMPP's htdocs folder</li>
   <li>Turn on XAMPP Apache Server</li>
-  <li>Open the local website using internet browser<</li>
+  <li>Open the local website using internet browser</li>
 </ol>
