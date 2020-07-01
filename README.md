@@ -7,7 +7,7 @@ This web-based chatbot can also be deployed into the internet website (for examp
 
 ## Requirements
 <ul>
-  <li>XAMPP Apache Server</li>
+  <li>XAMPP Apache Server (for local use only)</li>
   <li>Internet browser and connection</li>
 </ul>
 
